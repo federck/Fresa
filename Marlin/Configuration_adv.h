@@ -804,7 +804,7 @@
  *    M908 - BQ_ZUM_MEGA_3D, RAMBO, PRINTRBOARD_REVF, RIGIDBOARD_V2 & SCOOVO_X9H
  *    M909, M910 & LCD - only PRINTRBOARD_REVF & RIGIDBOARD_V2
  */
-#define PWM_MOTOR_CURRENT { 900, 900, 900 }          // Values in milliamps
+#define PWM_MOTOR_CURRENT { 850, 850, 850 }          // Values in milliamps
 //#define DIGIPOT_MOTOR_CURRENT { 95, 95, 95, 95, 95 }   // Values 0-255 (RAMBO 135 = ~0.75A, 185 = ~1A)
 //#define DAC_MOTOR_CURRENT_DEFAULT { 70, 80, 90, 80 }    // Default drive percent - X, Y, Z, E axis
 
@@ -2513,24 +2513,24 @@
  */
 #define CUSTOM_USER_MENUS
 #if ENABLED(CUSTOM_USER_MENUS)
-  #define CUSTOM_USER_MENU_TITLE "Custom Commands"
-  #define USER_SCRIPT_DONE "M117 User Script Done"
+  #define CUSTOM_USER_MENU_TITLE "Comandi utente"
+  #define USER_SCRIPT_DONE "Comando M117 eseguito"
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
   //#define USER_SCRIPT_RETURN  // Return to status screen after a script
 
-  #define USER_DESC_1 "Reset All Coordinates"
+  #define USER_DESC_1 "Reset delle coordinate"
   #define USER_GCODE_1 "G92 X0 Y0 Z0"
 
-  #define USER_DESC_2 "Home Z Axis"
+  #define USER_DESC_2 "Home asse Z"
   #define USER_GCODE_2 "G28 Z"
 
-  #define USER_DESC_3 "Home X&Y"
+  #define USER_DESC_3 "Home assi X e Y"
   #define USER_GCODE_3 "G28 X Y"
 
-//#define USER_DESC_4 "Heat Bed/Home/Level"
+//#define USER_DESC_4 "Riscalda base/Home/Livella"
 //#define USER_GCODE_4 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nG28\nG29"
 
-//#define USER_DESC_5 "Home & Info"
+//#define USER_DESC_5 "Home con informazioni"
 //#define USER_GCODE_5 "G28\nM503"
 #endif
 
