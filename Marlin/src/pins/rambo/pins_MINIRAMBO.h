@@ -43,7 +43,7 @@
 #define Y_MIN_PIN          11
 #define Y_MAX_PIN          24
 #define Z_MIN_PIN          10
-#define Z_MAX_PIN          23
+#define Z_MAX_PIN          -1
 
 //
 // Z Probe (when not Z_MIN_PIN)
@@ -108,7 +108,7 @@
 #define HEATER_BED_PIN      4
 
 #ifndef FAN_PIN
-  #define FAN_PIN           8
+  #define FAN_PIN           23
 #endif
 #define FAN1_PIN            6
 
