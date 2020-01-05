@@ -42,7 +42,7 @@
 #define X_MAX_PIN          30
 #define Y_MIN_PIN          11
 #define Y_MAX_PIN          24
-#define Z_MIN_PIN          10
+#define Z_MIN_PIN          23 //10
 #define Z_MAX_PIN          -1 //23
 
 //
@@ -108,9 +108,9 @@
 #define HEATER_BED_PIN      4
 
 #ifndef FAN_PIN
-  #define FAN_PIN           8
+  #define FAN_PIN           10 //8
 #endif
-#define FAN1_PIN            23 //6
+#define FAN1_PIN            6
 
 //
 // Misc. Functions
