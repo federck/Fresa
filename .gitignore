@@ -184,3 +184,9 @@ cmake-build-*
 
 #Python
 __pycache__
+
+#Config & Pin
+Marlin/_Bootscreen.h
+Marlin/Configuration.h
+Marlin/Configuration_adv.h
+Marlin/src/pins/rambo/pins_MINIRAMBO.h
